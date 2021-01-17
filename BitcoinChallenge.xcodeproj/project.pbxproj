@@ -13,6 +13,10 @@
 		14AACE7C25B491410059A25C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AACE6725B491400059A25C /* ContentView.swift */; };
 		14AACE7D25B491410059A25C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AACE6825B491410059A25C /* Assets.xcassets */; };
 		14AACE7E25B491410059A25C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AACE6825B491410059A25C /* Assets.xcassets */; };
+		14AACE8A25B491C30059A25C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AACE8925B491C30059A25C /* Model.swift */; };
+		14AACE8B25B491C30059A25C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AACE8925B491C30059A25C /* Model.swift */; };
+		14AACEAE25B4AB480059A25C /* money.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 14AACEAD25B4AB480059A25C /* money.mp3 */; };
+		14AACEAF25B4AB480059A25C /* money.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 14AACEAD25B4AB480059A25C /* money.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,8 @@
 		14AACE7525B491410059A25C /* BitcoinChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14AACE7725B491410059A25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14AACE7825B491410059A25C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		14AACE8925B491C30059A25C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		14AACEAD25B4AB480059A25C /* money.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = money.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,8 @@
 			children = (
 				14AACE6625B491400059A25C /* BitcoinChallengeApp.swift */,
 				14AACE6725B491400059A25C /* ContentView.swift */,
+				14AACE8925B491C30059A25C /* Model.swift */,
+				14AACE9025B495F60059A25C /* sounds */,
 				14AACE6825B491410059A25C /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -88,6 +96,14 @@
 				14AACE7825B491410059A25C /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		14AACE9025B495F60059A25C /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				14AACEAD25B4AB480059A25C /* money.mp3 */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14AACE7D25B491410059A25C /* Assets.xcassets in Resources */,
+				14AACEAE25B4AB480059A25C /* money.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14AACE7E25B491410059A25C /* Assets.xcassets in Resources */,
+				14AACEAF25B4AB480059A25C /* money.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14AACE8A25B491C30059A25C /* Model.swift in Sources */,
 				14AACE7B25B491410059A25C /* ContentView.swift in Sources */,
 				14AACE7925B491410059A25C /* BitcoinChallengeApp.swift in Sources */,
 			);
@@ -196,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14AACE8B25B491C30059A25C /* Model.swift in Sources */,
 				14AACE7C25B491410059A25C /* ContentView.swift in Sources */,
 				14AACE7A25B491410059A25C /* BitcoinChallengeApp.swift in Sources */,
 			);
