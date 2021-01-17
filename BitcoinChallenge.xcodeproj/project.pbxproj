@@ -15,8 +15,8 @@
 		14AACE7E25B491410059A25C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AACE6825B491410059A25C /* Assets.xcassets */; };
 		14AACE8A25B491C30059A25C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AACE8925B491C30059A25C /* Model.swift */; };
 		14AACE8B25B491C30059A25C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AACE8925B491C30059A25C /* Model.swift */; };
-		14AACEAE25B4AB480059A25C /* money.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 14AACEAD25B4AB480059A25C /* money.mp3 */; };
-		14AACEAF25B4AB480059A25C /* money.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 14AACEAD25B4AB480059A25C /* money.mp3 */; };
+		14AACEB725B4F22B0059A25C /* money.wav in Resources */ = {isa = PBXBuildFile; fileRef = 14AACEB625B4F22B0059A25C /* money.wav */; };
+		14AACEB825B4F22B0059A25C /* money.wav in Resources */ = {isa = PBXBuildFile; fileRef = 14AACEB625B4F22B0059A25C /* money.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		14AACE7725B491410059A25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14AACE7825B491410059A25C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		14AACE8925B491C30059A25C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		14AACEAD25B4AB480059A25C /* money.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = money.mp3; sourceTree = "<group>"; };
+		14AACEB625B4F22B0059A25C /* money.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = money.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		14AACE9025B495F60059A25C /* sounds */ = {
 			isa = PBXGroup;
 			children = (
-				14AACEAD25B4AB480059A25C /* money.mp3 */,
+				14AACEB625B4F22B0059A25C /* money.wav */,
 			);
 			path = sounds;
 			sourceTree = "<group>";
@@ -185,7 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14AACE7D25B491410059A25C /* Assets.xcassets in Resources */,
-				14AACEAE25B4AB480059A25C /* money.mp3 in Resources */,
+				14AACEB725B4F22B0059A25C /* money.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14AACE7E25B491410059A25C /* Assets.xcassets in Resources */,
-				14AACEAF25B4AB480059A25C /* money.mp3 in Resources */,
+				14AACEB825B4F22B0059A25C /* money.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

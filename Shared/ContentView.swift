@@ -12,6 +12,9 @@ struct ContentView: View {
     
     @State var bpi: Bpi? = nil
     @State private var isRotated = false
+    
+    static var player: AVAudioPlayer!
+
     var animation: Animation {
         Animation.easeOut
     }
@@ -77,17 +80,23 @@ struct ContentView: View {
     }
     
     func playSound() {
-        guard let audioFile = Bundle.main.path(forResource: "money", ofType: "mp3") else {
-            return
+        guard let url = Bundle.main.url(forResource: "money", withExtension: "wav") else { return
         }
+
         do {
-            let soundPlayer: AVAudioPlayer? = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioFile))
-            guard let player = soundPlayer else { return }
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+            try AVAudioSession.sharedInstance().setActive(true)
             
+            ContentView.player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.wav.rawValue)
+            
+            guard let player = ContentView.player else {
+                return
+            }
+            player.prepareToPlay()
             player.play()
             
         } catch let error {
-            print("Cannot play sound. \(error.localizedDescription)")
+            print(error.localizedDescription)
         }
     }
     
