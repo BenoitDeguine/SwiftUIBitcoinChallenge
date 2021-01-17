@@ -92,7 +92,7 @@ struct ContentView: View {
     }
     
     func rotateBitcoinImage() {
-        self.isRotated = true
+        self.isRotated.toggle()
     }
     
 }
